@@ -1,0 +1,104 @@
+* {
+    font-family: 'Titillium Web',black;
+    font-size: 18px;
+}
+
+p {
+    justify-content: center;
+}
+
+div.outer-box {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 25vh;
+    margin: 0 2% 0 2%;
+    padding: 1%;
+}
+
+div.content-box {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: teal;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.online {
+    border-radius: 100%;
+    background-color: green;
+    height: 15px;
+    width: 15px;
+    float: right;
+}
+
+div.offline {
+    border-radius: 100%;
+    background-color: red;
+}
+p {
+    justify-content: center;
+}
+
+div.outer-box {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: fit-content;
+    margin: 0 2% 0 2%;
+    padding: 1%;
+}
+
+div.content-box {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: teal;
+    padding: 3px;
+    margin: 10%;
+}
+
+div.online {
+    border-radius: 100%;
+    background-color: green;
+    height: 15px;
+    width: 15px;
+    float: right;
+}
+
+div.offline {
+    border-radius: 100%;
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    float: right;
+}
+
+button {
+    width: 200px;
+    margin: 10px;
+    padding: 3px;
+    font-size: 20px;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid teal;
+}
+
+div.counter-rows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: row;
+    padding: 5%;
+}

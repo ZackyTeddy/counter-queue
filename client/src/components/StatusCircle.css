@@ -1,0 +1,23 @@
+div.greenStatus {
+    border-radius: 100%;
+    background-color: green;
+    height: 15px;
+    width: 15px;
+    float: right;
+}
+
+div.redStatus {
+    border-radius: 100%;
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    float: right;
+}
+
+div.grayStatus {
+    border-radius: 100%;
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    float: right;
+}

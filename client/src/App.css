@@ -1,0 +1,30 @@
+* {
+  font-family: 'Titillium Web',black;
+  font-size: 18px;
+}
+
+div.counter-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: row;
+  padding: 5%;
+}
+
+div.back {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+button.menuRouteButton {
+  border-radius: 10px;
+  border-color: gray;
+  color: gray;
+  justify-content: center;
+  margin: 7px;
+  flex-direction: row;
+  height: 40vh;
+  width: 90vw;
+  font-size: 18px ;
+}
